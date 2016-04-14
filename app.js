@@ -6,6 +6,9 @@ var handlerUser = require("./userHandler");
 var handlerRed = require("./redHandler");
 
 app.use(express.static(__dirname + '/app'));
+app.use("/js", express.static(__dirname + "/app/js"));
+app.use("/img", express.static(__dirname + "/app/img"));
+app.use("/css", express.static(__dirname + "/app/css"));
 
 app.get("/users", function (req, res) {
 	var users = handlerUser.onlyTheUsers();
