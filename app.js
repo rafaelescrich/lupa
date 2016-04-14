@@ -5,13 +5,12 @@ var app = require("express")();
 var handlerUser = require("./userHandler");
 var handlerRed = require("./redHandler");
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/app'));
 
 app.get("/users", function (req, res) {
 	var users = handlerUser.onlyTheUsers();
 	res.json(users);
 });
-
 
 app.get("/reds", function (req, res) {
 	var reds = handlerRed.onlyTheReds();
@@ -32,6 +31,6 @@ app.patch("/users", function (req, res) { res.send("all the HTTP verb looks the 
 
 app.delete("/users", function (req, res) { res.send("all the HTTP verb looks the same");});
 
-app.listen(3000);
-
-console.log("listening on: http://127.0.0.1:3000");
+app.listen(3000, function(){
+	console.log("listening on: http://127.0.0.1:3000");
+});
