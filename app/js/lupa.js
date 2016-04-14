@@ -6,7 +6,7 @@ angular.module('lupaApp', [])
           {
             "General":	{
                   "id"	: "1",
-                      "title"	: "O som das palavras [Um mundo de letras]",
+                      "title"	: "Título 1",
                       "description"	: "Apresenta o episódio da série Um mundo de letras, da TV Escola. Mostra a importância do hábito de leitura e escrita na educação das crianças e as dúvidas dos alunos quanto à ortografia das palavras. Apresenta para educadores e professores que sua ação é fundamental para orientar o aluno na descoberta da nova linguagem",
                       "keywords": "Métodos e Técnicas de Ensino, Educação infantil, Linguagem escrita"
                 }
@@ -14,17 +14,17 @@ angular.module('lupaApp', [])
           {
             "General":	{
                   "id"	: "2",
-                      "title"	: "O som das palavras [Um mundo de letras]",
+                      "title"	: "Título 2",
                       "description"	: "Apresenta o episódio da série Um mundo de letras, da TV Escola. Mostra a importância do hábito de leitura e escrita na educação das crianças e as dúvidas dos alunos quanto à ortografia das palavras. Apresenta para educadores e professores que sua ação é fundamental para orientar o aluno na descoberta da nova linguagem",
-                      "keywords": "Métodos e Técnicas de Ensino, Educação infantil, Linguagem escrita"
+                      "keywords": "Biologia, Matemática, Ensino Médio"
                 }
           },
           {
             "General":	{
                   "id"	: "3",
-                      "title"	: "O som das palavras [Um mundo de letras]",
+                      "title"	: "Título 3",
                       "description"	: "Apresenta o episódio da série Um mundo de letras, da TV Escola. Mostra a importância do hábito de leitura e escrita na educação das crianças e as dúvidas dos alunos quanto à ortografia das palavras. Apresenta para educadores e professores que sua ação é fundamental para orientar o aluno na descoberta da nova linguagem",
-                      "keywords": "Métodos e Técnicas de Ensino, Educação infantil, Linguagem escrita"
+                      "keywords": "História, Português, Ensino Básico"
                 }
           }
         ];
